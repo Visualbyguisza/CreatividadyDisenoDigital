@@ -1322,7 +1322,7 @@
   <script>
     lucide.createIcons();
 
-    let initialTime = 20 * 60;
+    let initialTime = 07 * 60;
     let secondsLeft = initialTime;
     const clockEl = document.getElementById('clock');
     
@@ -1341,7 +1341,7 @@
     function resetAllProgress() {
       if (confirm("¿Deseas reiniciar el temporizador, los retos resueltos y las configuraciones de la clase?")) {
         secondsLeft = initialTime;
-        clockEl.textContent = "20:00";
+        clockEl.textContent = "07:00";
         clockEl.style.color = "var(--creative-yellow)";
         solvedChallenges = [false, false, false];
         updateScoreLabel();
